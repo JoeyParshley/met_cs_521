@@ -1,0 +1,31 @@
+Dear CS-521 students:
+
+ Additional Information for CS-521:
+
+The term project and video will be due by Friday, April 27 at 11:59pm. We recommend students try to finish sooner
+Students should record their presentation using Kaltura, and then upload it into an already built assignment in blackboard.
+We have clear instructions on this for students, and this will make it very simple for facilitator grading. It will be delivered into the grade center for grading like a normal deliverable.
+ 
+
+You submit the following for your final project:
+
+(zipped) file with your code and 1-2 page description
+video recording using “kaltura”
+Here is some info on how Kaltura works: https://onlinecampus.bu.edu/bbcswebdav/courses/00cwr_odeelements/cfa/cfa_Kaltura.htm
+
+This is a Python project. We want to see (at the minimum) the use of the following
+
+(1) collections (at least one): list, set, tuple or dictionary)
+
+(2) flow constructs (at least one) - if/else  or while
+
+(3) file access
+
+(4) at least one class (could be very simple)
+
+(5) (at least one) function(s)
+
+(6) documentation (docstring for every function and class)
+
+We need to be able to run your code ourselves, if needed.
+

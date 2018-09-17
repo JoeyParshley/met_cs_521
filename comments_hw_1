@@ -1,0 +1,35 @@
+Nice job. You clearly have programming experience.
+
+Please read my comments carefully because some of your style elements will lead to deductions going forward.
+
+For #1.3, here is a more compact answer:
+
+print("""
+FFFFFFF  U     U  NN    NN
+FF       U     U  NNN   NN
+FFFFFFF  U     U  NN N  NN
+FF        U   U   NN  N NN
+FF         UUU    NN   NNN
+""")
+
+In the future, be sure to use functions for repeat operations (like for 1.11). 
+
+You should not EVER mix spaces and tabs in Python. Very dangerous.
+
+Your code just used tabs in the docstrings, so not bad - but you if you are in the habit, you might accidentally do it in code.
+
+Please just use spaces going forward.
+
+Nice job using the docstrings. But now remember to add lots of # comments in your code.
+
+Next, please keep your lines under 80 characters. The PEP8 standard describes this and other best practices that I'll be mentioning during the semester.
+
+Finally, instead of printing with % or just commas that leave text unformatted, use the fuction format(). 
+
+It's a lot more powerful.  For example:
+
+print("Total population after 2 years will be: {0:,.2f}".format(pop))
+
+The above will add commas and two decimal places.
+
+--- Marc

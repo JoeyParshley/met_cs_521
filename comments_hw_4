@@ -1,0 +1,115 @@
+Overall, this was very good.
+
+10.1 --
+
+Nice try. I liked your use of functions.
+
+Note that in "while invalid_entry", there is no reason to set on else "invalid_entry = True". It is already true.
+
+The real problem those is that you set "invalid_entry = False" is the last int is valid.
+
+So it breaks out of your loop with a bad entry and then fails.
+
+I won't subtract because you had the right idea and just messed up the execution.
+
+Better would be to have reversed your logic:
+
+while invalid_entry:
+    invalid_entry = False
+    # prompt user for the scores
+    scores = input( "Enter the students' scores separated"\
+        " by spaces on one line: ").split()
+    for val in scores:
+        try:
+            # make sure each score is an integer
+            val = int(val)
+        except ValueError:
+            print(ERROR_MESSAGE.format(val))
+            invalid_entry = True
+
+I attached a solution that I just wrote to give you another example.
+
+_marc10is@bu.edu_hw_4_ex_10_1.py 
+
+10.3 --
+
+First, the same problem in your input loop. You continue even with a bad entry.
+
+More importantly, your logic didn't work. For example:
+
+Enter integers between 1 annd 100: 10 20 30 40 40 50 10 20
+
+10 occurs 2 time
+
+20 occurs 2 time
+
+30 occurs 1 time
+
+40 occurs 2 time
+
+40 occurs 2 time
+
+50 occurs 1 time
+
+10 occurs 2 time
+
+20 occurs 2 time
+
+One solution would have been to use a dictionary and then loop through the numbers.
+
+Another, closer to your solution, would be to keep track of what you printed in a list.
+
+In other words, in your loop, if a number is not in the list then print it and add to the list.
+
+Also, I would not use the reserved word "integer" as a variable or use "l" as a parameter. "l" is more for a loop.
+
+So here is a solution, modifying your function.
+
+def display_integer_counts(int_list):
+    tested = []
+    for i in int_list:
+        if i not in tested:
+            print("{0} occurs {1} time".format(i, int_list.count(i)))
+            tested.append(i)
+
+(-3 pts)
+
+10.5 --
+
+This works, but an easier and faster solution would be to use a set.
+
+list2 = sorted(list(set(list1)))
+
+Plus, the points I mentioned in the earlier problems.
+
+11.1 --
+
+Nice!
+
+11.3 --
+
+This is good.
+
+I just want to point out that I know that the book calls the function main() but that's wrong.
+
+Functions should be named for what they do. 
+
+I've noticed other times that the author has a C++ bias and doesn't always write things in the most "pythonic" way.
+
+Instead of calling main, use if __name__ == '__main__': for your body as I showed in my example code.
+
+This is VERY important for reusability now that you have started using functions and classes are coming next.
+
+14.1 --
+
+Very nice.
+
+So you used the sys.exit() here! You could have used it in the earlier programs as an easy way to exit on bad input.
+
+One problem was on your count, as shown from my test:
+
+   There are 5 keywords used in _input.py, these keywords are: 'for', 'False', 'from', 'finally'.
+
+I only see 4 keywords
+
+(-1 pt)

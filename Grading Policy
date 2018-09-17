@@ -1,0 +1,65 @@
+Grading Policy
+
+
+Each problem in your homework is graded on a scale 0 – 10
+As the semester progresses, you may lose points for not following conventions.
+This is not an exhaustive list. We will send to you updates as the semester progresses.
+
+1. Have a docstring at the top of your code with:
+   """
+   Name
+   Class
+   Date
+   Assignment
+   Description
+   """
+Functions must get their own docstring. And don't put a line comment before the function.  If you keep going with python you're learn that this is the place for 'decorators'.
+Function docstring eg.
+"""
+ Description: What the function does
+ :input param : 
+:input param : 
+:return: what the function returns
+ """
+2. Don't mix tabs and spaces. Pick one or the other (preferably spaces). Mixing tabs and spaces can change what is included in code blocks and have unintended results for different users.
+
+3. Don't put the control code inside a main() function unless there is a reason for it.
+    We recommend using if __name__ == '__main__':
+
+4. Put dependent functions first, don't put the control code at the top.
+
+    def f1():
+       ...
+    def f2():
+       ...
+    if __name__ == '__main__':
+        ...
+5. Include try block tests. A program should not crash because of unexpected input.  Wrapping this in a while True: loop is an easy way to keep trying until the input is valid. As we go through advance topics you exception handling with try … except.
+
+6. Don't use eval(input()). Check the input variables separately.
+    Convert input variables data types in try blocks.
+
+7. When printing, use format().
+   The % is a soon to be depricated style and not nearly as powerful.
+   For example:
+                  print('This is my float: {0:,.2f} and my string: {1}'.format(1.234,'Hi Mom'))
+
+8. Keep code lines under 80 characters.
+
+9.Use meaningful variable, function names; be like def calculate_triangle_area (side_one, side_two, side_three) instead of def a(s1, s2, s3)
+Python Styling reference:
+https://www.python.org/dev/peps/pep-0008/
+https://www.python.org/dev/peps/pep-0020/
+https://www.python.org/dev/peps/pep-0257/
+
+10. Going forward, students should will also be graded on the code quality as it relates to what they’ve learned. For example, if we discuss loops loops and lists then this should not get full credit:
+a = 1
+b = 2
+c = 3
+...
+j = 10
+Or repeating code that belongs in a function. 
+
+Our aim is to learn good “pythonic” and algorithmic practices. 
+
+

@@ -1,0 +1,92 @@
+Excellent work!
+
+6.1 -- Very nice
+
+6.3 -- Nice. Better would be if isPalindrome() just returned True/False.
+
+   def isPalindrome(number):
+
+      return number == reverse(number) 
+
+Also, reverse() didn't need to set a value first.
+
+   def reverse(number):
+
+      return int(str(number)[::-1])
+
+6.5 ---  You solution worked but is overly complicated and inflexible.
+
+What if I then asked you to do 4 or 40 numbers?
+
+Easier would be to work on it as a list.
+
+And you should reprompt users on an input error.
+
+def displaySortedNumbers(num_lst):
+
+    ''' define a function to sort three numbers
+
+    '''
+
+    return sorted(num_lst)
+
+
+  if __name__ == '__main__':
+
+    while True:
+
+        lst = input('Enter 3 numbers separated by spaces: ').split(' ')
+
+
+        if len(lst) != 3:
+
+            print('{} numbers entered, please try again.'.format(len(lst)))
+
+            continue
+
+
+        valid_count = 0
+
+        for cnt, l in enumerate(lst):
+
+            try:
+
+                lst[cnt] = float(l)
+
+                valid_count += 1
+
+            except:
+
+                print('Error: "{}" is not a float. Please try again.'.format(l))
+
+        if valid_count == len(lst):
+
+            break
+
+
+    print('Sorted:', *displaySortedNumbers(lst),sep=' ')
+
+    # Alternate print()
+
+    print('Sorted: {}'.format(' '.join('{}'.format(x) for x in sorted(lst))))
+
+6.9 -- Excellent solution.
+
+15.1 -- Nice use of recursion.
+
+But I had no idea why you wrote:
+
+   if __name__ == '__main__':
+
+      invalid_entry = True
+
+      if __name__ == '__main__':
+
+(the extra code had no impact so no deduction)
+
+Also, you forgot a docstring for sumDigits.
+
+(as you've been good about this, no deduction)
+
+
+15.3 -- More nice use of recursion.

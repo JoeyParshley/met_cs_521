@@ -1,0 +1,27 @@
+﻿,IP Address,Serial Number,Product Name,Rack,Machine Number,POP,Location,Testnet,Business Unit,Owner,HW asset comments,Notes
+,,AK015619,Synnex 1x2-X4 16G Server {Rev B}{No DVD},8CC-LAB-C4,30,Akamai Technologies - Assets,8CC - 5-131 Lab,bos-volta-dev,Platform,RSEGEBRE,,ABATTERY
+, 172.25.32.162,,,,,,,,,,,
+,,2.05805E+11,ZT Group 1x6-X4 SSD 16G Server,8CC-LAB-C4,1,Akamai Technologies - Assets,8CC - 5-131 Lab,bos-volta-dev,Platform,RSEGEBRE,,ABATTERY
+, 172.25.47.196,,,,,,,,,,,
+,,CT-4170307-00603,Ciara 1x6-X7 SSD-E 64G Server {Foxconn} {RevB} {RAM Upgrade},EAT-D29,22,Sabey DataCenter LLC,"Quincy, WA",mmagri-ness-tech,Platform,JKOCIAJ,,
+, 198.18.55.158,,,,,,,,,,,
+,,2.05905E+11,ZT Group 1x6-X4 SSD 32G Server {No DVD} {MB new I/O} {Rev B} {RAM upgrade},EAT-D19,9,Sabey DataCenter LLC,"Quincy, WA",mmagri-ness-tech,Platform,RSEGEBRE,,ABATTERY
+, 198.18.55.182,,,,,,,,,,,
+,,CT-4140106-00078,Ciara 1x2-X4 32G Server {Rev D} {No DVD} {RAM Upgrade},EAT-D21,6,Sabey DataCenter LLC,"Quincy, WA",vrossi-infra-lead,Platform,RSEGEBRE,,ABATTERY
+, 198.18.57.12,,,,,,,,,,,
+,,CT-4170307-00559,Ciara 1x6-X7 SSD-E 64G Server {Foxconn} {RevB} {RAM Upgrade},EAT-G14,22,Sabey DataCenter LLC,"Quincy, WA",mmagri-ness-dev,Platform,DHAFEMAN,,
+, 198.18.88.164,,,,,,,,,,,
+,,CT-4170307-00608,Ciara 1x6-X7 SSD-E 64G Server {Foxconn} {RevB} {RAM Upgrade},EAT-G14,24,Sabey DataCenter LLC,"Quincy, WA",mmagri-ness-dev,Platform,DHAFEMAN,,
+, 198.18.88.191,,,,,,,,,,,
+,,CT-4140217-00221,Ciara 1x2-X4 32G Server {No DVD}{Rev B},EAT-H27,36,Sabey DataCenter LLC,"Quincy, WA",mmagri-ness-dev,Platform,RSEGEBRE,,ABATTERY
+, 198.18.88.227,,,,,,,,,,,
+,,CT-4140217-00226,Ciara 1x2-X4 32G Server {No DVD}{Rev B},EAT-H27,37,Sabey DataCenter LLC,"Quincy, WA",mmagri-ness-dev,Platform,RSEGEBRE,,ABATTERY
+, 198.18.88.228,,,,,,,,,,,
+,,CT-4140527-00103,Ciara 1x2-X6 32G Server {Foxconn},EAT-H24,40,Sabey DataCenter LLC,"Quincy, WA",mmagri-ness-dev,Platform,RSEGEBRE,,ABATTERY
+, 198.18.88.236,,,,,,,,,,,
+,,CT-4131219-00200,Ciara 1x2-X4 SSD 32G Server {No DVD}{Rev B}{RAM Upgrade},EAT-G29,25,Sabey DataCenter LLC,"Quincy, WA",mmagri-ness-dev,Platform,RSEGEBRE,,
+, 198.18.93.143,,,,,,,,,,,
+,,CT-4131219-00189,Ciara 1x2-X4 SSD 32G Server {No DVD}{Rev B}{RAM Upgrade},EAT-G29,26,Sabey DataCenter LLC,"Quincy, WA",mmagri-ness-dev,Platform,RSEGEBRE,,
+, 198.18.93.144,,,,,,,,,,,
+,,CT-4140106-00006,Ciara 1x2-X4 32G Server {Rev D} {No DVD} {RAM Upgrade},EAT-G28,24,Sabey DataCenter LLC,"Quincy, WA",mmagri-ness-dev,Platform,RSEGEBRE,,ABATTERY
+, 198.18.93.168,,,,,,,,,,,

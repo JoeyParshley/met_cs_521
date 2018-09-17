@@ -1,0 +1,73 @@
+Very nice structure to your code. You are progressing very well.
+
+4.1 --
+
+Excellent
+
+4.3 --
+
+Nice again,
+
+My tip is that once you get more than a few variables, you should consider keeping your split code as a list.
+
+Here is how I would have written the parsing using a loop structure:
+
+N = 6
+
+while True:
+
+   x = input("Enter {} numbers separated by a comma: ".format(N))
+
+   parseString = x.split(',')
+
+   assert len(parseString) == N, '{} values not provided!'.format(N)
+
+   for n, l in enumerate(parseString):
+
+       try:
+
+          parseString[n] = float(parseString[n])
+
+       except:
+
+          print("Error: All {} values are not numeric!".format(N))
+
+          continue
+
+   break
+
+5.1 --
+
+I read your code carefully enough to notice: # Iinitialize the variables  (LOL)
+
+You should have been able to structure this code to only need one input().
+
+Since you had: while data != 0, you would need to initially set input 1 to something before entering the loop and putting your input() at the top of the loop.
+
+(-1 pt)
+
+5.3 --
+
+You need to be using functions more. In some of the prior programs maybe, but here definitely.
+
+The conversion calculation should be a function. And if it wasn't a function, it should be a global.
+
+(-1 pts)
+
+8.1 --
+
+Really nice code - but it doesn't work.
+
+Try: 12-456-1234
+
+There are a few way to do this. One would be to split('-') and check the three pieces for size and being integers.
+
+The code is so well structured however that I am just subtracting a token amount.
+
+(-1 pts)
+
+13.1 --
+
+You forgot to write back out the removed string!
+
+(-2 pts)

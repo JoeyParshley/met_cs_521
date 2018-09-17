@@ -1,0 +1,8 @@
+This is the test file for assignment 13_1 of week 3. The object is to loop 
+through the file and remove all the instance of the word "file". After the
+program runs this file if will no longer have the string "file" in the file.
+
+This is a second paragraph of the file. The rest of this file has the same text.
+The test file for assignment 13_1 of week 3. The object is to loop 
+through the file and remove all the instance of the word "file". After the
+program runs this file if will no longer have the string "file" in the file.
